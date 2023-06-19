@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link id=link href="./theme1.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <container class="elements">
+      <div class="base"><p class="color-box-text">Base</p></div>
+      <div class="important"><p class="color-box-text">Important</p></div>
+      <div class="warning"><p class="color-box-text">Warning</p></div>
+      <div class="principal"><p class="color-box-text">Principal font</p></div>
+      <div class="secondary"><p class="color-box-text">Secondary font</p></div>
+      <div class="shadow"><p class="color-box-text">Box with shadow</p></div>
+    </container>
+  <container class="buttons">
+    <button onclick="change()"> Change theme</button>
+  </container>
+</body>
+</html>
+
+<script>
+  function change() {
+    if(document.getElementById("link").href.includes("theme2.css")){
+      document.getElementById("link").href = "./theme1.css";
+    }else{
+      document.getElementById("link").href = "./theme2.css";
+    }
+  }
+  </script>

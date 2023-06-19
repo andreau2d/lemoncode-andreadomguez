@@ -1,0 +1,70 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  height: 100vh;
+}
+.background{
+  display: inline-grid;
+  grid-template-columns: 370px;
+  grid-template-rows: 570px;
+  background-color: rgb(201, 201, 201);
+  position:absolute;
+}
+  
+  .card{
+    display: inline-grid;
+    border: 0.5px solid black; 
+    grid-template-columns: 200px 150px;
+    grid-template-rows: 250px 50px 150px 50px 50px;
+    background-color: white;
+    grid-template-areas: 
+    "imagen imagen"
+    "title title"
+    "texto texto"
+    "published date"
+    "boton boton";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+
+  img{
+    grid-area: imagen;
+    width: 350px;
+    height: 250px;
+  }
+
+  h1{
+    grid-area: title;
+    padding: 20px;
+  }
+
+  .published{
+    grid-area: published;
+    display: grid;
+    justify-items: end;
+
+  }
+  .date{
+    grid-area: date;
+    text-indent: 5px;
+    color: rgb(8, 177, 8);
+  }
+
+  .text{
+    grid-area: texto;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+
+  }
+  
+  button{
+    grid-area: boton;
+    background-color:  rgb(8, 177, 8);
+    margin: 5px;
+    border: 0px;
+    color: white;
+  }
+
+
+    

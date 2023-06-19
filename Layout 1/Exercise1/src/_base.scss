@@ -1,0 +1,21 @@
+$palette-number: 9;
+
+$brightness-base : 1/ (floor(($palette-number/2) + 1));
+   
+@mixin item($color){
+    $i:1;
+    @while $i <= $palette-number{
+      .item-#{$i} {
+        justify-items: center;
+        background-color: $color;
+        filter: bridghtness-color($i);
+        color: complement($color);
+        border-radius: 10px;
+      }
+      $i: $i + 1;
+    }
+  }
+
+  @function bridghtness-color($amount){
+    @return brightness($brightness-base * $amount);
+}

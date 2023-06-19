@@ -1,0 +1,207 @@
+#palette {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(9, 100px);
+  grid-template-rows: repeat(1, 100px);
+  align-items: center;
+  margin: 2px;
+}
+
+#pink .item-1 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(0.2);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-2 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(0.4);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-3 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(0.6);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-4 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(0.8);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-5 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(1);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-6 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(1.2);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-7 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(1.4);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-8 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(1.6);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+#pink .item-9 {
+  justify-items: center;
+  background-color: palevioletred;
+  filter: brightness(1.8);
+  color: #70dbb8;
+  border-radius: 10px;
+}
+
+#yellow .item-1 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(0.2);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-2 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(0.4);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-3 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(0.6);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-4 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(0.8);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-5 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(1);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-6 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(1.2);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-7 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(1.4);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-8 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(1.6);
+  color: blue;
+  border-radius: 10px;
+}
+#yellow .item-9 {
+  justify-items: center;
+  background-color: yellow;
+  filter: brightness(1.8);
+  color: blue;
+  border-radius: 10px;
+}
+
+#blue .item-1 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(0.2);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-2 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(0.4);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-3 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(0.6);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-4 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(0.8);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-5 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(1);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-6 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(1.2);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-7 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(1.4);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-8 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(1.6);
+  color: yellow;
+  border-radius: 10px;
+}
+#blue .item-9 {
+  justify-items: center;
+  background-color: blue;
+  filter: brightness(1.8);
+  color: yellow;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=/style.97fcb138.css.map */

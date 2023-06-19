@@ -1,0 +1,41 @@
+
+body {
+  margin: 0;
+  padding: 30px;
+}
+
+  #menu {
+    display: flex;
+    height: 100vh;
+    flex-flow: row wrap; 
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  
+
+  .option{
+    min-width: 100px;
+    background-color:pink;
+    border: 1px solid black; 
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+  }
+
+  .option:hover{
+    filter: contrast(1.5);
+  }
+
+
+  @media  screen and (max-width: 650px){
+    #menu{
+      flex-flow: column wrap;
+      min-width: 300px;
+    }
+    .option{
+      min-width: 200px;
+      max-height: 30px;
+    }
+  }
+ 
+

@@ -1,0 +1,30 @@
+@use "base" as *;
+
+#palette{
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  
+ }
+
+div{
+    display: grid;
+    grid-template-columns: repeat($palette-number, 100px);
+    grid-template-rows: repeat(1, 100px);
+    align-items: center;
+    margin: 2px;
+  }
+
+#pink {
+  @include item(palevioletred);
+}
+
+#yellow{
+  @include item(yellow);
+}
+
+#blue{
+    @include item(blue);
+}
+ 
+
