@@ -1,0 +1,23 @@
+
+html {
+    height: 100vh;
+  }
+h1 {
+    padding: 20px;
+    display: flex;
+    background-color: antiquewhite;
+    justify-content: center;
+}
+
+#imgContainer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+p {
+    color: darkslategrey;
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
