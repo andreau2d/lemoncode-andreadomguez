@@ -1,4 +1,3 @@
-import * as service from "./averageService";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.scss"
 import logoImg from "./content/logo.png";
