@@ -1,0 +1,13 @@
+$background-color: pink;
+$color: teal;
+
+
+.text {
+  background-color: $background-color;
+  color: $color;
+  font-size: large;
+}
+
+.h2 {
+  color: $background-color;
+}
